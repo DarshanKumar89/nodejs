@@ -1,0 +1,24 @@
+{
+  "name": "beavr",
+  "description": "Next generation short term job recruiting.",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "install": "(cd client && npm install) && (cd server && npm install)",
+    "clean": "(cd client && npm clean) && (cd server && npm clean)",
+    "test": "cd server && npm test",
+    "version": "npm test",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:beavr/beavr.git"
+  },
+  "homepage": "https://github.com/beavr/beavr",
+  "author": {
+    "name": "Michael G. Ströck",
+    "email": "michael@beavr.com",
+    "url": "https://angel.co/mstroeck"
+  },
+  "keywords": []
+}

@@ -1,0 +1,9 @@
+.idea
+.vagrant
+reports
+
+npm-debug.log*
+node_modules
+build
+
+deploy/keys
